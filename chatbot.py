@@ -12,8 +12,8 @@ response = random.choice(
 ]
 )
 for word in response.split():
-yield word + " "
-time.sleep(0.05)
+    yield word + " "
+    time.sleep(0.05)
 
 st.title("Simple chat")
 
